@@ -57,6 +57,16 @@ abstract class AbstractEditAction extends AbstractAction {
 
     public abstract void actionPerformed(AnActionEvent anActionEvent, Config config, Question question);
 
+
+
+
+
+
+
+
+
+
+
     protected boolean openConvergeEditor(AnActionEvent anActionEvent, ConvergePreview.TabSelectFileEditorState state) {
         FileEditor fileEditor = FileEditorManager.getInstance(anActionEvent.getProject()).getSelectedEditor();
         if (fileEditor != null && fileEditor instanceof QuestionEditorWithPreview) {
