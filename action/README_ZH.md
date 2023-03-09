@@ -1,1 +1,0 @@
-Redirect https://github.com/shuzijun/leetcode-editor-action
