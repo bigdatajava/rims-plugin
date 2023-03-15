@@ -1,9 +1,10 @@
-package com.tuling.tulingmall.security.component;
+package com.macro.mall.security.component;
 
 import cn.hutool.json.JSONUtil;
 import com.tuling.tulingmall.common.api.CommonResult;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
+import org.springframework.stereotype.Component;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;

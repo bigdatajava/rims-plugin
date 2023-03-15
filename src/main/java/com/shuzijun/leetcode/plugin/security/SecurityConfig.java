@@ -1,9 +1,9 @@
-package com.tuling.tulingmall.security.config;
+package com.macro.mall.security.config;
 
-import com.tuling.tulingmall.security.component.JwtAuthenticationTokenFilter;
-import com.tuling.tulingmall.security.component.RestAuthenticationEntryPoint;
-import com.tuling.tulingmall.security.component.RestfulAccessDeniedHandler;
-import com.tuling.tulingmall.security.util.JwtTokenUtil;
+import com.macro.mall.security.component.JwtAuthenticationTokenFilter;
+import com.macro.mall.security.component.RestAuthenticationEntryPoint;
+import com.macro.mall.security.component.RestfulAccessDeniedHandler;
+import com.macro.mall.security.util.JwtTokenUtil;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -98,6 +98,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     public static void main(String[] args) {
         //密码加密方式
         BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
-        System.out.println(bCryptPasswordEncoder.encode("test"));
+        System.out.println(bCryptPasswordEncoder.encode("123456"));
     }
 }

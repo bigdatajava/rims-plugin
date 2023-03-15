@@ -1,4 +1,4 @@
-package com.tuling.tulingmall.security.util;
+package com.macro.mall.security.util;
 
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.StrUtil;

@@ -1,4 +1,4 @@
-package com.tuling.tulingmall.security.config;
+package com.macro.mall.security.config;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,6 +1,6 @@
-package com.tuling.tulingmall.security.component;
+package com.macro.mall.security.component;
 
-import com.tuling.tulingmall.security.util.JwtTokenUtil;
+import com.macro.mall.security.util.JwtTokenUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,7 +26,7 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
     private static final Logger LOGGER = LoggerFactory.getLogger(JwtAuthenticationTokenFilter.class);
     /**
      * 后续拆分成微服务,改为Feign调用Member服务获取UserDetail
-     * 由<link>SecurityConfig<link/>子类注入
+     * 由<link>com.macro.mall.security.config.SecurityConfig<link/>子类注入
      */
     @Autowired
     private UserDetailsService userDetailsService;
